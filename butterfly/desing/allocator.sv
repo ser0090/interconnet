@@ -67,7 +67,7 @@ module allocator
    // si el pkt es un payload last mantiene la misma asignacion input -> output.
    assign hold    = last & payload ;
 
-   always @(posedge i_clk) begin
+   always_ff @(posedge i_clk) begin
       if(i_rst)
         last <= 0;
       else
