@@ -51,6 +51,7 @@ module allocator
 
    // use of the output port to route the packets starting whit this head phit
    assign request = head & match;
+   // powwwws
    assign pass    = {pass[1:0], avail} & ~request[2:0];
 
    // Arbitrer section
