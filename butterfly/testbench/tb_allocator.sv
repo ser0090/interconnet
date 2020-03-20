@@ -24,8 +24,7 @@ module tb_allocator();
 
       i_this_port = 1;
 
-      #5
-      i_rst = 0;
+      #5 i_rst = 0;
       i_r3 = 4'b1101;
       i_r2 = 4'b1101;
       i_r1 = 4'b1101;

@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
  // allocator: assigns output port to input port based on type
 // of input phit and current field of routing header
 // once assigned, holds a port for the duration of a packet
