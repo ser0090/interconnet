@@ -33,9 +33,9 @@ module allocator
 
    reg [3:0]         last;
 
-   initial begin
-      last = 0;
-   end
+   // initial begin
+   //    last = 0;
+   // end
 
    // Decode section
    assign head    = {i_r3[3:2] == HEAD, i_r2[3:2] == HEAD,
