@@ -47,5 +47,6 @@ module tb_allocator();
         .i_rst       (i_rst),
         .i_clk       (i_clk) // chip clock
         );
-   
+
+
 endmodule // tb_allocator

@@ -3,8 +3,8 @@
 
 module router
   (
-   output reg [17:0]  o_outputs [3:0], // output phits
-   input logic [17:0] i_inputs [3:0], // input phits
+   output reg [17:0]  o_outputs [0:3], // output phits
+   input logic [17:0] i_inputs [0:3], // input phits
    input wire         i_rst, // chip reset
    input wire         i_clk // chip clock
    );
